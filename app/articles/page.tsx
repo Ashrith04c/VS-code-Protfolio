@@ -77,7 +77,7 @@ export default function ArticlesPage() {
 
           <div className={styles.resumeActions}>
             <a
-              href="/resume.pdf"
+              href="/Resume Up.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.profileLink}
