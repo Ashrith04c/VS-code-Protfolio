@@ -47,6 +47,9 @@ export const profile = {
   role: 'Full Stack Developer',
   currentPosition: 'Software Engineer',
   location: ' Hyderabad, India',
+  ogImage: '/og-image.png',
+  githubUsername: 'Ashrith04c',
+  siteUrl: 'https://vs-code-protfolio-git-main-ashriths-projects-d3eb0fcd.vercel.app',
   repository: 'https://github.com/Ashrith04c/vscode-portfolio',
   metaDescription:
     "Ajmera Ashrith is an avid full stack web developer building websites and applications you'd love to use",

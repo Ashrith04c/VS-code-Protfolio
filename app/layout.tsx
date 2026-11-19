@@ -6,7 +6,9 @@ import { profile } from '@/portfolio.config';
 import '@/styles/globals.css';
 import '@/styles/themes.css';
 
+
 export const metadata: Metadata = {
+  metadataBase: new URL(profile.siteUrl),
   title: {
     default: `${profile.name} | Portfolio`,
     template: `${profile.name} | %s`,
@@ -23,6 +25,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
   },
 };
+
 
 const themeScript = `
   (function() {
